@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="./assets/images/youtube-icon.png"
+			type="image/x-icon"
+		/>
+		<title>DIO | Youtube Clone</title>
+		<!-- font awesome icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- css -->
+		<link rel="stylesheet" href="./styles/index.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="nav-logo">
+					<i class="fa-solid fa-bars"></i>
+					<img src="./assets/images/youtube-logo.png" alt="Youtube Logo" />
+				</div>
+				<div class="nav-search">
+					<input type="text" />
+					<button>
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</button>
+				</div>
+				<div class="nav-notification">
+					<i class="fa-solid fa-video"></i>
+					<i class="fa-solid fa-bell"></i>
+					<img src="./assets/images/ynncstslv-profile.jpg" alt="Avatar" />
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section class="video-section">
+				<div class="video-player">
+					<iframe
+						width="952"
+						height="537"
+						src="https://www.youtube.com/embed/lwlPih04UiM?si=fd375AkseGOV1jRn"
+						title="Aula Inaugural - Coding the Future Avanade - Programação C# com CRM Dynamics"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					></iframe>
+					<div class="video-player__title">
+						<h1>
+							Aula Inaugural - Coding the Future Avanade - Programação C# com
+							CRM Dynamics
+						</h1>
+						<div class="video-player__info">
+							<div class="video-player__channel">
+								<img src="./assets/images/dio-channel.png" alt="Dio Avatar" />
+								<div class="channel-info">
+									<h3>DIO</h3>
+									<p>83,3 mil inscritos</p>
+								</div>
+							</div>
+							<button>INSCREVA-SE</button>
+							<div class="video-info">
+								<div class="video-info__like">
+									<i class="fa-solid fa-thumbs-up"></i>
+									<p>2 mil</p>
+								</div>
+								<div class="video-info__dislike">
+									<i class="fa-solid fa-thumbs-down"></i>
+									<p>Não gostei</p>
+								</div>
+								<div class="video-info__share">
+									<i class="fa-solid fa-share"></i>
+									<p>Compartilhar</p>
+								</div>
+								<div class="video-info__download">
+									<i class="fa-solid fa-download"></i>
+									<p>Download</p>
+								</div>
+							</div>
+						</div>
+						<p class="video-player__views">
+							28.418 visualizações Transmitido ao vivo em 28 de out. de 2023
+						</p>
+						<p class="video-player__description">
+							Participe do bootcamp Coding The Future Avanade, uma parceria com
+							a multinacional de referência em consultoria tecnológica, Avanade.
+							Com este programa, você irá conhecer e aprimorar seu conhecimento
+							em programação C# com foco em CRM Dynamics, uma das soluções mais
+							impactantes no mercado corporativo atual.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="playlist-section">
+				<div class="playlist__video-card">
+					<div class="video-card__img-container">
+						<img
+							src="./assets/images/thumbnails/thumb-01.png"
+							alt="Thumbnail 1"
+						/>
+					</div>
+					<div class="video-card__info">
+						<h2>Geração Tech Unimed - BH - Ciência de Dados</h2>
+						<p>DigitalInnovationOne</p>
+						<div class="video-card__info-views">
+							<p>2,1 mil visualizações</p>
+							<p>Transmitido há 2 dias</p>
+						</div>
+					</div>
+				</div>
+				<div class="playlist__video-card">
+					<div class="video-card__img-container">
+						<img
+							src="./assets/images/thumbnails/thumb-02.png"
+							alt="Thumbnail 1"
+						/>
+					</div>
+					<div class="video-card__info">
+						<h2>Scrum Talks</h2>
+						<p>DigitalInnovationOne</p>
+						<div class="video-card__info-views">
+							<p>1,6 mil visualizações</p>
+							<p>Transmitido há 3 dias</p>
+						</div>
+					</div>
+				</div>
+				<div class="playlist__video-card">
+					<div class="video-card__img-container">
+						<img
+							src="./assets/images/thumbnails/thumb-03.png"
+							alt="Thumbnail 1"
+						/>
+					</div>
+					<div class="video-card__info">
+						<h2>Machine Learning Avançado - Fast Track</h2>
+						<p>DigitalInnovationOne</p>
+						<div class="video-card__info-views">
+							<p>1,7 mil visualizações</p>
+							<p>Transmitido há 4 dias</p>
+						</div>
+					</div>
+				</div>
+				<div class="playlist__video-card">
+					<div class="video-card__img-container">
+						<img
+							src="./assets/images/thumbnails/thumb-04.png"
+							alt="Thumbnail 1"
+						/>
+					</div>
+					<div class="video-card__info">
+						<h2>Global Skills #2 - Project Planning</h2>
+						<p>DigitalInnovationOne</p>
+						<div class="video-card__info-views">
+							<p>971 visualizações</p>
+							<p>Transmitido há 5 dias</p>
+						</div>
+					</div>
+				</div>
+				<div class="playlist__video-card">
+					<div class="video-card__img-container">
+						<img
+							src="./assets/images/thumbnails/thumb-05.png"
+							alt="Thumbnail 5"
+						/>
+					</div>
+					<div class="video-card__info">
+						<h2>Como Aprender Python do ZERO</h2>
+						<p>DigitalInnovationOne</p>
+						<div class="video-card__info-views">
+							<p>711 visualizações</p>
+							<p>Transmitido há 6 dias</p>
+						</div>
+					</div>
+				</div>
+				<div class="playlist__video-card">
+					<div class="video-card__img-container">
+						<img
+							src="./assets/images/thumbnails/thumb-01.png"
+							alt="Thumbnail 1"
+						/>
+					</div>
+					<div class="video-card__info">
+						<h2>Geração Tech Unimed - BH - Ciência de Dados</h2>
+						<p>DigitalInnovationOne</p>
+						<div class="video-card__info-views">
+							<p>2,1 mil visualizações</p>
+							<p>Transmitido há 2 dias</p>
+						</div>
+					</div>
+				</div>
+				<div class="playlist__video-card">
+					<div class="video-card__img-container">
+						<img
+							src="./assets/images/thumbnails/thumb-02.png"
+							alt="Thumbnail 1"
+						/>
+					</div>
+					<div class="video-card__info">
+						<h2>Scrum Talks</h2>
+						<p>DigitalInnovationOne</p>
+						<div class="video-card__info-views">
+							<p>1,6 mil visualizações</p>
+							<p>Transmitido há 3 dias</p>
+						</div>
+					</div>
+				</div>
+				<div class="playlist__video-card">
+					<div class="video-card__img-container">
+						<img
+							src="./assets/images/thumbnails/thumb-03.png"
+							alt="Thumbnail 1"
+						/>
+					</div>
+					<div class="video-card__info">
+						<h2>Machine Learning Avançado - Fast Track</h2>
+						<p>DigitalInnovationOne</p>
+						<div class="video-card__info-views">
+							<p>1,7 mil visualizações</p>
+							<p>Transmitido há 4 dias</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
